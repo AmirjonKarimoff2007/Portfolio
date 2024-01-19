@@ -300,7 +300,7 @@ span{
 
 }
 .skill-bar .bar .css{
-    width: 62%;
+    width: 78%;
     animation: css 5s;
     
 }
@@ -342,7 +342,7 @@ span{
     }
 
     100%{
-        width: 62%;
+        width: 78%;
     }
 }
 
