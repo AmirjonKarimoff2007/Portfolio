@@ -326,13 +326,13 @@ span{
     }
 }
 
-@keyframes javascript {
+@keyframes aiogram {
     0%{
         width: 0%;
     }
 
     100%{
-        width: 80%;
+        width: 93%;
     }
 }
 
