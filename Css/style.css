@@ -467,8 +467,9 @@ span{
     margin-bottom: 1rem;
 }
 .portfolio-layer p{
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     margin: 3.rem 0 1rem;
+    color: var(--bg-color);
 }
 .portfolio-layer a{
     display: inline-flex;
@@ -478,15 +479,27 @@ span{
     height: 5rem;
     background: var(--text-color);
     border-radius: 50%;
-
+    margin-top: 10px;
+    margin-left: 10px;
 }
+.portfolio-layer a:hover{
+    background: var(--bg-color);
+    color: var(--hover-color);
+    transition: 0.5s;
+}
+
+.portfolio-layer a:hover .bx{
+    color: var(--hover-color);
+    transition: .5s;
+}
+
+
 .portfolio-layer a i {
     font-size: 2rem;
     color: var(--second-bg-color);
 }
 
-
-/* conttact section */
+/* contact section */
 .contact{
     margin-bottom: 3rem;
     background: var(--second-bg-color);
