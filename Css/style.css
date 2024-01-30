@@ -577,7 +577,88 @@ span{
 
 }
 
+.portfolio{
+    background: var(--second-bg-color);
 
+}
+
+.Portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,auto));
+    align-items: center;
+    gap: 2.3rem;
+    margin-top: 4.2rem;
+}
+
+.row img{
+    height: auto;
+    width: 100%;
+    border-radius: 28px;
+    margin-bottom: 1.4rem;
+}
+
+.row{
+    background: #2d343f;
+    border-radius: 28px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px var(--main-color);
+    padding: 20px;
+    transition: all .50s ease;
+    margin-bottom: 13px;
+}
+
+
+.main-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+
+.row h5{
+    color: var(--text-color);
+}
+
+.row h5{
+    font-size: 20px;
+    font-weight:  600;
+    color: var(--second-bg-color);
+
+}
+
+
+.row i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    font-size: 21px;
+    border-radius: 50%;
+    color: var(--text-color);
+    background:#075fe4;
+    cursor: pointer;
+}
+.row i:hover{
+    background: var(--bg-color);
+    transition: .5s;
+}
+.row-text h5 {
+    color: #fff;
+}
+.row h4{
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.row:hover{
+    border: 1px solid var(--main-color);
+    transform: translateY(-5px) scale(1.03);
+    cursor: pointer;
+}
 /* Break Points */
 @media (max-width:1200px){
     html{
