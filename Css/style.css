@@ -629,7 +629,7 @@ span{
 
 
 .row i{
-    display: inline-flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     width: 45px;
