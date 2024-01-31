@@ -639,6 +639,7 @@ span{
     color: var(--text-color);
     background:#075fe4;
     cursor: pointer;
+    margin: 2px;
 }
 .row i:hover{
     background: var(--bg-color);
