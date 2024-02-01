@@ -1,1 +1,1 @@
-bir balo
+ikki balo bir kun
